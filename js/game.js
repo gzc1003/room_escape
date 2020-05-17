@@ -758,7 +758,7 @@ function iMissYou(){
 	if(window.location.hash){
 		vtext.textContent = encryptString(decodeURIComponent(window.location.hash).substring(1));
 	}else{
-		vtext.textContent = "Hi Melody, i miss u";
+		vtext.textContent = "I miss U, Melody";
 	}
 
 	setTimeout(function(){
