@@ -372,7 +372,7 @@ function Door(config,level){
 			// }
 			if(distance<6){
 				if(level.isIntro){
-					
+
 					document.getElementById("whole_container").style.top = "-100%";
 
 					createjs.Sound.play("ding");
@@ -941,4 +941,3 @@ window.LEVEL_CONFIG = [
 		countdown: 130
 	},
 ];
-

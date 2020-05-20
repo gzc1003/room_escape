@@ -36,6 +36,7 @@ window.onload = function(){
 	addAsset("8","assets/8.png");
 	addAsset("9","assets/9.png");
 	addAsset("iphone6","assets/iphone6.png");
+	addAsset("hint","assets/hint.png");
 
 	onLoadAssets(function(){
 		window.setTimeout(function(){
@@ -99,7 +100,7 @@ $("#gesturepwd").on("hasPasswd",function(e,passwd){
 		$("#gesturepwd").trigger("passwdRight");
 		setTimeout(function(){
 			//密码验证正确后的其他操作，打开新的页面等。。。
-			window.location.href = '../level3/'
+			window.location.href = '../level3/index.html'
 		},500);  //延迟半秒以照顾视觉效果
 	}
 	else{

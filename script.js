@@ -93,7 +93,7 @@ class Lock {
             this.dom.status.textContent = 'UNLOCKED';
             this.sounds.success.play();
             window.setTimeout(function(){
-                window.location.href = './level2/'
+                window.location.href = './level2/index.html'
             },1200);
         } else {
             this.dom.lock.classList.remove('verified');
