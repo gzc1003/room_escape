@@ -941,3 +941,12 @@ window.LEVEL_CONFIG = [
 		countdown: 130
 	},
 ];
+
+console.log("欢迎来到隐藏杂货铺")
+console.log("~~~~~")
+console.log("瞧一瞧，看一看~")
+console.log("~~~~~")
+console.log("有喜欢的头像挑一挑~")
+console.log("https://www.zhihu.com/question/377658010/answer/1071539215?utm_source=com.yinxiang&utm_medium=social&utm_oi=39322401112064")
+console.log("有喜欢的帽子挑一挑~")
+console.log("https://data-1302201326.cos.ap-beijing.myqcloud.com/room_escape/caps.png")
