@@ -1,53 +1,186 @@
-<!doctype>
+<!DOCTYPE html>
 <html>
 <head>
-
-	<!-- Place this data between the <head> tags of your website -->
-	<title>room escape level3</title>
-	<meta name="description" content="a one-minute minigame."/>
-	<link rel="icon" type="image/png" href="favicon.png">
-
-	<!-- Style -->
-	<link rel="stylesheet" type="text/css" href="css/index.css"> 
+    <!-- Place this data between the <head> tags of your website -->
+    <title>room escape level1</title>
+    <!-- Style -->
+    <link rel="stylesheet" type="text/css" href="./index.css">
+    <link rel='stylesheet' href='https://unpkg.com/flickity@2.2.1/dist/flickity.min.css'>
 
 </head>
 <body>
 
-	<div id="loading"><div>LOADING</div></div>
+<div id="loading"><div>LOADING</div></div>
 
-	<div id="whole_container">
+<div id="whole_container">
 
-		<!--span style="display:none"-->
-		<div id="screen_one">
-			<canvas id="canvas_intro"></canvas>
-		</div>
+    <!--span style="display:none"-->
+    <div id="screen_one">
+        <img id="arrow1" src="assets/arrow.png" alt="">
+        <img id="office" src="assets/office.png" alt="">
+    </div>
 
-		<div id="screen_two">
-			<div id="canvas_container">
+    <div id="screen_two">
+        <img id="uparrow2" src="assets/arrow.png" alt="">
+        <img id="mag" src="assets/mag.png" alt="">
+        <img id="desk" src="assets/desk.jpg" alt="">
+        <img id="arrow2" src="assets/arrow.png" alt="">
+    </div>
 
-				<canvas id="canvas_1" width="300" height="380"></canvas>
-				<canvas id="canvas_2" width="300" height="380"></canvas>
-				<canvas id="canvas_3" width="300" height="380" style="margin:0"></canvas>
-				<canvas id="canvas_4" width="300" height="380"></canvas>
-				<canvas id="canvas_5" width="300" height="380"></canvas>
-				<canvas id="canvas_6" width="300" height="380" style="margin:0"></canvas>
+    <div id="screen_three">
+        <img id="uparrow3" src="assets/arrow.png" alt="">
+        <div id="locker">
+            <div class="loader"></div>
+            <div class="lock">
+                <div class="screen">
+                    <div class="code">0000</div>
+                    <div class="status">LOCKED</div>
+                    <div class="scanlines"></div>
+                </div>
+                <div class="rows">
+                    <div class="row">
+                        <div class="cell">
+                            <div class="text">0</div>
+                        </div>
+                        <div class="cell">
+                            <div class="text">1</div>
+                        </div>
+                        <div class="cell">
+                            <div class="text">2</div>
+                        </div>
+                        <div class="cell">
+                            <div class="text">3</div>
+                        </div>
+                        <div class="cell">
+                            <div class="text">4</div>
+                        </div>
+                        <div class="cell">
+                            <div class="text">5</div>
+                        </div>
+                        <div class="cell">
+                            <div class="text">6</div>
+                        </div>
+                        <div class="cell">
+                            <div class="text">7</div>
+                        </div>
+                        <div class="cell">
+                            <div class="text">8</div>
+                        </div>
+                        <div class="cell">
+                            <div class="text">9</div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="cell">
+                            <div class="text">0</div>
+                        </div>
+                        <div class="cell">
+                            <div class="text">1</div>
+                        </div>
+                        <div class="cell">
+                            <div class="text">2</div>
+                        </div>
+                        <div class="cell">
+                            <div class="text">3</div>
+                        </div>
+                        <div class="cell">
+                            <div class="text">4</div>
+                        </div>
+                        <div class="cell">
+                            <div class="text">5</div>
+                        </div>
+                        <div class="cell">
+                            <div class="text">6</div>
+                        </div>
+                        <div class="cell">
+                            <div class="text">7</div>
+                        </div>
+                        <div class="cell">
+                            <div class="text">8</div>
+                        </div>
+                        <div class="cell">
+                            <div class="text">9</div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="cell">
+                            <div class="text">0</div>
+                        </div>
+                        <div class="cell">
+                            <div class="text">1</div>
+                        </div>
+                        <div class="cell">
+                            <div class="text">2</div>
+                        </div>
+                        <div class="cell">
+                            <div class="text">3</div>
+                        </div>
+                        <div class="cell">
+                            <div class="text">4</div>
+                        </div>
+                        <div class="cell">
+                            <div class="text">5</div>
+                        </div>
+                        <div class="cell">
+                            <div class="text">6</div>
+                        </div>
+                        <div class="cell">
+                            <div class="text">7</div>
+                        </div>
+                        <div class="cell">
+                            <div class="text">8</div>
+                        </div>
+                        <div class="cell">
+                            <div class="text">9</div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="cell">
+                            <div class="text">0</div>
+                        </div>
+                        <div class="cell">
+                            <div class="text">1</div>
+                        </div>
+                        <div class="cell">
+                            <div class="text">2</div>
+                        </div>
+                        <div class="cell">
+                            <div class="text">3</div>
+                        </div>
+                        <div class="cell">
+                            <div class="text">4</div>
+                        </div>
+                        <div class="cell">
+                            <div class="text">5</div>
+                        </div>
+                        <div class="cell">
+                            <div class="text">6</div>
+                        </div>
+                        <div class="cell">
+                            <div class="text">7</div>
+                        </div>
+                        <div class="cell">
+                            <div class="text">8</div>
+                        </div>
+                        <div class="cell">
+                            <div class="text">9</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="info">
+                <p><strong>Super Secret Code</strong>: </p>
+                <p>C24-D16-I11-K10</p>
+            </div>
+        </div>
+    </div>
+    <!--/span-->
 
-				<div id="valentines_text"></div>
-				<div id="rewind_text">rewinding...</div>
-				<div id="replay_text">playing back...</div>
-
-			</div>
-		</div>
-		<!--/span-->
-		
-	</div>
+</div>
 </body>
 </html>
 
-<script src="js/Key.js"></script>
-<script src="js/game.js"></script>
-<script src="js/soundjs-0.6.0.min.js"></script>
-
-<script>
-//STAGE = 4;
-</script>
+<script src='https://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.2.2.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.1/flickity.pkgd.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.0/howler.min.js'></script>
+<script src="./script.js"></script>

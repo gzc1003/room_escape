@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<!-- Place this data between the <head> tags of your website -->
+	<title>room escape level3</title>
+	<meta name="description" content="a one-minute minigame."/>
+	<link rel="icon" type="image/png" href="favicon.png">
+
+	<!-- Style -->
+	<link rel="stylesheet" type="text/css" href="css/index.css"> 
+
+</head>
+<body>
+
+	<div id="loading"><div>LOADING</div></div>
+
+	<div id="whole_container">
+
+		<!--span style="display:none"-->
+		<div id="screen_one">
+			<canvas id="canvas_intro"></canvas>
+		</div>
+
+		<div id="screen_two">
+			<div id="canvas_container">
+
+				<canvas id="canvas_1" width="300" height="380"></canvas>
+				<canvas id="canvas_2" width="300" height="380"></canvas>
+				<canvas id="canvas_3" width="300" height="380" style="margin:0"></canvas>
+				<canvas id="canvas_4" width="300" height="380"></canvas>
+				<canvas id="canvas_5" width="300" height="380"></canvas>
+				<canvas id="canvas_6" width="300" height="380" style="margin:0"></canvas>
+
+				<div id="valentines_text"></div>
+				<div id="rewind_text">rewinding...</div>
+				<div id="replay_text">playing back...</div>
+
+			</div>
+		</div>
+		<!--/span-->
+		
+	</div>
+</body>
+</html>
+
+<script src="js/Key.js"></script>
+<script src="js/game.js"></script>
+<script src="js/soundjs-0.6.0.min.js"></script>
